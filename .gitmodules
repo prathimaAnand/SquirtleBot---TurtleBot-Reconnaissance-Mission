@@ -1,0 +1,18 @@
+[submodule "turtlebot3"]
+	path = src/turtlebot3
+	url = https://github.com/ROBOTIS-GIT/turtlebot3.git
+[submodule "m-explore"]
+	path = src/m-explore
+	url = https://github.com/hrnr/m-explore.git
+[submodule "navigation"]
+	path = src/navigation
+	url = https://github.com/ros-planning/navigation.git
+[submodule "src/apriltag_ros"]
+	path = src/apriltag_ros
+	url = https://github.com/AprilRobotics/apriltag_ros.git
+[submodule "src/apriltag"]
+	path = src/apriltag
+	url = https://github.com/AprilRobotics/apriltag.git
+[submodule "src/image_pipeline"]
+	path = src/image_pipeline
+	url = https://github.com/ros-perception/image_pipeline.git

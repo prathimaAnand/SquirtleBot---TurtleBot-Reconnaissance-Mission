@@ -8,3 +8,12 @@ This script is an implementation of an Apriltag tracker node for ROS (Robot Oper
 The node's purpose is to transform the poses of the Apriltags from the detection frame to the map frame and publish them as the map_tag_<id> transforms. It also calculates a velocity score and keeps track of the best Apriltag poses in the map frame, based on the velocity score.
 
 Additionally, the node also publishes the known tag poses in the map frame as PoseStamped messages on the topic 'mapped_tags'.
+
+The node written in Python that subscribes to two topics: /tag_detections and /cmd_vel. The first topic publishes AprilTagDetectionArray messages, which contain information about the poses of AprilTags detected in the camera frame. The second topic publishes Twist messages, which contain information about the linear and angular velocities of a robot.
+
+The node transforms the tag detections from the camera frame to the map frame and publishes the poses in the map frame. It also tracks the best tag poses by assigning a score based on the linear and angular velocities. The score is updated every time a new Twist message is received.
+
+The node also broadcasts the transform of each tag in the map frame, which can be used for localization purposes. Additionally, it provides a method to print all the tracked tag poses in the map frame.
+
+
+

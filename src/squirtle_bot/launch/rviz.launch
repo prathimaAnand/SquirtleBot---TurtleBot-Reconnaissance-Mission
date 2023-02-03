@@ -1,0 +1,18 @@
+<launch>
+  <param name="model" value="burger"/>
+
+  <!-- Arguments -->
+  <arg name="model" default="burger" doc="model type [burger, waffle, waffle_pi]"/>
+  <arg name="open_rviz" default="true"/>
+  <arg name="urdf_file" default="$(find xacro)/xacro --inorder '$(find squirtle)/urdf/squirtle.urdf.xacro'" />
+
+  <!-- Turtlebot3 description -->
+  <param name="robot_description" command="$(arg urdf_file)" />
+
+  <!-- rviz -->
+  <group if="$(arg open_rviz)">
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find turtlebot3_navigation)/rviz/turtlebot3_navigation.rviz"/>
+  </group>
+
+</launch>

@@ -1,0 +1,14 @@
+[Unit]
+Description=ROS launch
+After=network.target
+
+[Service]
+EnvironmentFile=-/etc/default/ssh
+ExecStart=/home/robot/ros_workspace/src/launch/launch_auto.sh
+User=robot
+Restart=on-failure
+RestartSec=5
+Type=simple
+
+[Install]
+WantedBy=multi-user.target

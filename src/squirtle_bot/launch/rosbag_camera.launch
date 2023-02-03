@@ -1,0 +1,8 @@
+<launch>
+ <node name="rosbag_camera"
+       pkg="rosbag"
+       type="record"
+       args="-o $(find squirtle)/bags/squirtle
+       /camera/camera_info
+       /camera/image_raw" />
+</launch>

@@ -1,7 +1,7 @@
 # SquirtleBot - TurtleBot Reconnaissance Mission
 In this project, a simulation of a disaster environment was implemented using a TurtleBot3 hardware. The robot was used to survey the area by mapping its trajectory also the area and identify potential dangers and victims. The project demonstrated the efficiency of using a robot to map an area and identify hazards and injured people before sending human responders into the field. The performance of the mover_base and explore_lite packages were modified using ROS and Python in order to improve the robot's capabilities in terms of reliability and precision.
 
-#Introduction and Motivation
+# Introduction and Motivation
 The purpose the this project is to simulate a reconnaissance mission after a disaster
 This could be a burned down building, hurricane, earthquake, etc.
 To reduce the risk to first responders, robots would be deployed in dangerous environments to survey and report back
@@ -10,7 +10,7 @@ turtlebot -> mobile platform
 apriltags -> victims
 closed room with obstacles -> dangerous environment
 
-#Turtlebot Types
+# Turtlebot Types
 There are 2 types of Turtlebots: 
 1. Burger.
 2. Waffle.

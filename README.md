@@ -16,7 +16,7 @@ There are 2 types of Turtlebots:
 2. Waffle.
 We are using turtlebot burger for our application for its better maneuverability, operation time and lightweightedness as compared to turtlebot waffle. 
 
-#Turtlebot Specifications 
+# Turtlebot Specifications 
 General Specifications :
 Size : 138*178*192(mm)
 Maximum translational velocity: 0.22 m/s
@@ -51,7 +51,7 @@ IMU
 Battery 
 Lithium polymer 11.1V 1800mAh / 19.98Wh 5C
 
-#Turtlebot Initialization
+# Turtlebot Initialization
 Prior to starting to solve the problem:
 OS installation
 Network configuration
@@ -61,7 +61,7 @@ Starting point for our solution
 Explore_lite
 Apriltag_detection
 
-#Camera Calibration
+# Camera Calibration
 Found intrinsics of the camera using Kalibr
 Central Pixel, focal length
 Distortion coefficients

@@ -70,5 +70,5 @@ Less than a pixel in both axes
 
 ![Screenshot 2023-06-01 144952](https://github.com/prathimaAnand/SquirtleBot---TurtleBot-Reconnaissance-Mission/assets/65678711/12e8de98-e063-4c07-8ed1-9ef17273483c)
 
-
+ 
 
